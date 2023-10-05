@@ -46,8 +46,7 @@ img {
 .headerMenuBar {
   padding-top: 40px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+
 }
 
 .navigation {
@@ -56,7 +55,7 @@ img {
   font-weight: 400;
   line-height: 16.41px;
   display: flex;
-  justify-content: space-between;
+
 }
 
 .navigationLink {
@@ -75,14 +74,11 @@ img {
 
 .content {
   display: flex;
-  justify-content: space-between;
 }
 
 .contentLeft-side {
   max-width: 522px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .contentLeft-side h1 {
@@ -106,8 +102,6 @@ img {
 
 .contentBtn-list {
   max-width: 302px;
-  display: flex;
-  justify-content: space-between;
 }
   
   .btn {
@@ -134,8 +128,6 @@ img {
   .logos {
     padding-top: 97px;
     padding-bottom: 97px;
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 538px;
   }
 
@@ -151,8 +143,6 @@ img {
   }
   
   .features {
-    display: flex;
-    justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 100px;
     background: #fff;
@@ -203,13 +193,11 @@ img {
   .services00 {
     display: flex;
     max-width: 370px;
-    flex-wrap: wrap;
-    justify-content: center;
     padding: 0px 30px 50px;
     background: #fff;
   }
 
-  .services00__title {
+  .services00_title {
     margin-top: 25px;
     margin-bottom: 22px;
     color: #000;
@@ -219,7 +207,7 @@ img {
     line-height: 28.13px;
   }
 
-  .services00__text {
+  .services00_text {
     color: #aaa;
     text-align: center;
     font-family: Gilroy-Regular;
@@ -230,15 +218,11 @@ img {
   }
 
   .section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 19px;
     padding-top: 92px;
     margin-bottom: 55px;
   }
   
-  .section__title {
+  .section_title {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 45px;
@@ -246,7 +230,7 @@ img {
     line-height: 52.73px;
   }
   
-  .section__text {
+  .section_text {
     max-width: 682px;
     color: #666;
     text-align: center;
@@ -256,7 +240,7 @@ img {
     line-height: 24px;
   }
   
-  .btn__learn {
+  .btnLearn {
     border: none;
     cursor: pointer;
     color: #fff;
