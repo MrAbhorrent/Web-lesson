@@ -6,39 +6,39 @@
     position: relative;
   }
   
-  .bannerBox {
-    display: flex;
-    gap: 63px;
-  }
-  
-  .bannerText {
-    max-width: 405px;
-    max-height: 94px;
-    margin-top: 290px;
-    border-left: 12px solid #f16d7f;
-    padding-left: 16px;
-  }
-  
-  .bannerText h1 {
-    color: #222;
-    font-family: Lato;
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 57.6px;
-  }
-  
-  .bannerText h2 {
-    color: #222;
-    font-family: Lato;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38.4px;
-  }
-  
-  .bannerTextRed {
-    color: #f16d7f;
-    font-family: Lato;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44.4px;
-  }  
+.bannerBox {
+  display: flex;
+  gap: 63px;
+}
+
+.bannerText {
+  max-width: 405px;
+  max-height: 94px;
+  margin-top: 290px;
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+
+.bannerText h1 {
+  color: #222;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57.6px;
+}
+
+.bannerText h2 {
+  color: #222;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+}
+
+.bannerTextRed {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.4px;
+}  

@@ -474,3 +474,133 @@ a {
 .hidden {
   display: none;
 }
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  .banner {
+    max-height: 368px;
+  }
+
+  .bannerBox {
+    min-width: 770px;
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+  }
+
+  .bannerText {
+    max-width: 311px;
+    max-height: 92px;
+    margin-top: 138px;
+    border-left: 12px solid #f16d7f;
+    padding-left: 16px;
+  }
+
+  .bannerText h1 {
+    font-size: 44px;
+    line-height: 52.8px;
+  }
+
+  .bannerText h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  .bannerTextRed {
+    font-size: 24px;
+    line-height: 44.4px;
+  }
+
+  .offer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    margin-bottom: 110px;
+  }
+
+  .women_pic {
+    width: 231px;
+    height: 167px;
+  }
+
+  .men_pic {
+    width: 231px;
+    height: 167px;
+  }
+
+  .kids_pic {
+    width: 231px;
+    height: 167px;
+  }
+
+  .accesories_pic {
+    width: 735px;
+    height: 116px;
+  }
+
+  .cards {
+    margin-top: 73px;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .cardsText {
+    padding: 24px 18px 20px;
+    gap: 12px;
+  }
+
+  .cardsText h4 {
+    margin-top: 6px;
+  }
+  
+  .products h2 {
+    margin-bottom: 3px;
+  }
+
+  .productsBtn {
+    margin-bottom: 64px;
+  }
+
+  .featureCards {
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 0px 64px;
+  }
+
+  .beach {
+    height: 693px;
+    background-image: url(./img/beach_tablet.webp);
+  }
+
+  .beachBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .beachPhoto {
+    margin-top: 64px;
+  }
+
+  .beachSubscribe {
+    margin-top: 48px;
+  }
+
+  .beachSubscribe h2 {
+    line-height: 38.88px;
+  }
+
+  .beachSubscribe h3 {
+    line-height: 162%;
+    margin-bottom: 27px;
+  }
+
+  .copyrightContent {
+    padding: 0px 16px;
+  }
+}
