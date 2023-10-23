@@ -30,3 +30,24 @@
     border: none;
     cursor: pointer;
   }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  
+  .copyrightContent {
+    padding: 0px 16px;  
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .copyright {
+    height: 143px;
+  }
+
+  .copyrightContent {
+    padding-top: 43px;
+    padding-left: 0px;
+    flex-direction: column-reverse;
+    padding-bottom: 9px;
+  }
+}

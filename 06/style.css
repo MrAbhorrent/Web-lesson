@@ -599,8 +599,178 @@ a {
     line-height: 162%;
     margin-bottom: 27px;
   }
+}
 
-  .copyrightContent {
-    padding: 0px 16px;
+@media (max-width: 767px) {
+  .container {
+    max-width: 343px;
   }
+  .hide {
+    display: none;
+  }
+  .menu {
+    flex-direction: row-reverse;
+    min-width: 32px;
+  }
+
+  .banner {
+    margin-bottom: 64px;
+  }
+
+  .bannerBox {
+    min-width: 0px;
+    gap: 0px;
+    min-height: 363px;
+  }
+
+  .bannerText {
+    max-width: 263px;
+    max-height: 66px;
+    margin-top: 148px;
+    padding-left: 15px;
+  }
+  .bannerText h1 {
+    font-size: 38px;
+    line-height: normal;
+  }
+
+  .bannerText h2 {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .bannerTextRed {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .offer {
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+
+  .women_pic {
+    width: 343px;
+    height: 248px;
+  }
+
+  .men_pic {
+    width: 343px;
+    height: 248px;
+  }
+
+  .kids_pic {
+    width: 343px;
+    height: 248px;
+  }
+
+  .accesories_pic {
+    width: 343px;
+    height: 111px;
+  }
+  
+  .cards {
+    margin-top: 64px;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .cardsText {
+    padding: 25px 28px 19px 16px;
+    gap: 12px;
+  }
+
+  .cardsText h4 {
+    margin-top: 6px;
+  }
+
+  .products {
+    max-width: 359px;
+  }
+
+  .products h2 {
+    margin-bottom: 3px;
+  }
+
+  .productsBtn {
+    margin-bottom: 85px;
+  }
+
+  .featureCards {
+    justify-content: center;
+    gap: 46px;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 0px 81px;
+  }
+
+  .beach {
+    height: 550px;
+    background-image: url(./img/beach_mobile.webp);
+  }
+
+  .beachBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .beachPhoto {
+    margin-top: 64px;
+    max-width: 343px;
+  }
+
+  .beachPhoto p {
+    font-size: 18px;
+  }
+
+  .beachText-italic {
+    font-size: 18px;
+  }
+
+  .beachSubscribe {
+    margin-top: 59px;
+    min-width: 341px;
+  }
+
+  .beachSubscribe h2 {
+    line-height: 36.768px;
+  }
+
+  .beachSubscribe h3 {
+    font-size: 14px;
+    line-height: 153.2%;
+    margin-bottom: 22px;
+  }
+
+  .subscribe__mail {
+    width: 245px;
+    height: 47px;
+  }
+
+  .subscribe__btn {
+    width: 95px;
+    height: 47px;
+  }
+}
+
+.cardsFilling:hover .cards__fog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productsBtn:hover {
+  color: #fff;
+  background: #f16d7f;
+}
+
+.copyrightBtn:hover {
+  background: #f16d7f;
+}
+.copyright__btn:hover svg {
+  fill: #fff;
+}
+
+.hidden {
+  display: none;
 }
