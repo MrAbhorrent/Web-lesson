@@ -759,15 +759,15 @@ a {
   align-items: center;
 }
 
-.productsBtn:hover {
+.productsButton:hover {
   color: #fff;
   background: #f16d7f;
 }
 
-.copyrightBtn:hover {
+.copyrightButton:hover {
   background: #f16d7f;
 }
-.copyright__btn:hover svg {
+.copyrightButton:hover svg {
   fill: #fff;
 }
 
