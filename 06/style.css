@@ -217,7 +217,7 @@ a {
   line-height: 16.8px;
 }
 
-.productsBtn {
+.productsButton {
   cursor: pointer;
   color: #f26376;
   font-family: Lato;
@@ -753,7 +753,7 @@ a {
   }
 }
 
-.cardsFilling:hover .cards__fog {
+.cardsFilling:hover .cardsFog {
   display: flex;
   justify-content: center;
   align-items: center;
